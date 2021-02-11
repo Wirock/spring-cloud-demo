@@ -18,7 +18,8 @@ import javax.annotation.Resource;
 @RestController
 @Slf4j
 public class OrderController {
-    private static final String PAYMENT_URL="http://localhost:8001";
+    //private static final String PAYMENT_URL="http://localhost:8001";
+    private static final String PAYMENT_URL="http://CLOUD-PAYMENT-SERVICE";
     //RestTemplate提供了多种便捷访问远程Http服务的方法，
     // 是一种简单便捷的restful模板类，是Spring提供的用于访问rest服务的客户端模板工具集
     @Resource
